@@ -1,0 +1,175 @@
+{
+    "Core": {
+        "Getting Started": {
+            "0": [
+                "Gather 250 Wood",
+                "Gather 100 Stone",
+                "Craft a Stone Hatchet",
+                "Craft a Stone Pickaxe",
+                "Gather 30 Cloth",
+                "Place a Sleeping Bag",
+                "Craft a Bow & Arrow"
+            ],
+            "1": [
+                "Craft a Wolf Headdress",
+                "Craft a Bone Knife",
+                "Make 2 Stone Furnaces",
+                "Make a Code Lock",
+                "Use a Bandage to Stop Bleeding"
+            ],
+            "2": [
+                "Equip Bone Armor while near Patrol Heli",
+                "Make a Crossbow"
+            ],
+            "3": [
+                "Craft a Compound Bow"
+            ]
+        },
+        "Building": {
+            "0": [
+                "Create a 2x1",
+                "Create a 2x2",
+                "Build a Double-Door Airlock",
+                "Build a 2x Single Door Airlock"
+            ],
+            "1": [
+                "Build a Foolproof Airlock",
+                "Place 4 Large Boxes in a Single Loot Room"
+            ],
+            "2": [
+                "Make a Stability Bunker",
+                "Build a Stone Compound"
+            ],
+            "3": [
+                "Design a Bunker Base",
+                "Construct a Multi-TC Base"
+            ]
+        },
+        "PvE": {
+            "0": [
+                "Get a Green Card from a Gas Station",
+                "Get a Green Card from Lighthouse",
+                "Get a Green Card from Supermarket"
+            ],
+            "1": [
+                "Get a Green card from a Scientist",
+                "Get a Blue Card from Sewer Branch",
+                "Get a Blue Card from Harbor",
+                "Get a Blue Card from Satellite Dish",
+                "Get a Red Card from Water Treatment Plant",
+                "Get a Red Card from Train Yard"
+            ],
+            "2": [
+                "Hack & Loot the Crate dropped by Cargo Heli",
+                "Use a Red Card"
+            ],
+            "3": [
+                "Loot all 3 Crates on Cargo Ship and Escape",
+                "Destroy and Loot Patrol Heli",
+                "Destroy and Loot Bradley APC",
+                "Complete Large Oil Rig"
+            ]
+        },
+        "PvP": {
+            "0": [
+                "Kill a Player with a Bow",
+                "Kill a Player with a Gun",
+                "Kill a Player with a Melee Weapon",
+                "Kill a Player by Throwing an Item",
+                "Doorcamp a player with a Shotgun"
+            ],
+            "1": [
+                "Fire Raid another Player's Base",
+                "Destroy a Sheet Metal Door with Explosive Ammo",
+                "Destroy a Garage Door with C4 and Explosive Ammo",
+                "Destroy a Stone, Metal, or Armored Wall with C4",
+                "Use a single Rocket to finish off 4 Stone Walls"
+            ],
+            "2": [
+                "Build a Raid Base and Raid a Compound",
+                "Defend against a Counter-Raid",
+                "Counter a Patrol Heli Takedown",
+                "Counter a Bradley"
+            ],
+            "3": [
+                "Use Heavy-Metal Armor to Drain a Turret",
+                "Kill a player with a High-Velocity Rocket",
+                "Kill a player with a Grenade Launcher",
+                "Counter Large Oil Rig",
+                "Counter Cargo Ship"
+            ]
+        }
+    },
+    "Specialties": {
+        "Building - Advanced": {
+            "0": [
+                "1st Entry"
+            ],
+            "1": [
+                "1st Entry"
+            ],
+            "2": [
+                "1st Entry"
+            ],
+            "3": [
+                "1st Entry"
+            ]
+        },
+        "Cultivation": {
+            "0": [
+                "1st Entry"
+            ],
+            "1": [
+                "1st Entry"
+            ],
+            "2": [
+                "1st Entry"
+            ],
+            "3": [
+                "1st Entry"
+            ]
+        },
+        "Industry": {
+            "0": [
+                "1st Entry"
+            ],
+            "1": [
+                "1st Entry"
+            ],
+            "2": [
+                "1st Entry"
+            ],
+            "3": [
+                "1st Entry"
+            ]
+        },
+        "Electricity": {
+            "0": [
+                "1st Entry"
+            ],
+            "1": [
+                "1st Entry"
+            ],
+            "2": [
+                "1st Entry"
+            ],
+            "3": [
+                "1st Entry"
+            ]
+        },
+        "Vehicles": {
+            "0": [
+                "1st Entry"
+            ],
+            "1": [
+                "1st Entry"
+            ],
+            "2": [
+                "1st Entry"
+            ],
+            "3": [
+                "1st Entry"
+            ]
+        }
+    }
+}

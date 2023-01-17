@@ -1,0 +1,10 @@
+.home {
+  background-color: get-color(darkteal);
+  display: grid;
+  grid-template-columns: .8fr repeat(3, 1fr) .8fr;
+  grid-template-rows: .6fr repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+  height: 100vh;
+}

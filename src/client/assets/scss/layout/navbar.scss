@@ -1,0 +1,87 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 1fr) 1fr;
+  grid-template-rows: 1fr;
+  grid-column: 1 / 6;
+  justify-content: space-between;
+  background-color: get-color(black1);
+  z-index: 40;
+  box-shadow: 0 0 2px rgb(0 0 0 / 10%), 0 4px 8px rgb(0 0 0 / 7%);
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 1fr) 1fr;
+    grid-template-rows: 1fr;
+    grid-row: 1 / 2;
+    grid-column: 1 /6;
+
+    .btn-group {
+      display: flex;
+      flex-direction: row;
+      grid-column: 2 / 5;
+      justify-content: center;
+
+      label {
+        width: 1vw;
+      }
+    }
+
+    .logo {
+      width: 75px;
+    }
+
+    .navbar-menu {
+      display: flex;
+      align-items: center;
+
+      .navbar-item {
+
+        a,
+        a:visited {
+          border: 1px solid get-color(blue2);
+          background-color: get-color(blue2);
+          padding: 10px 36px;
+          border-radius: 8px;
+          color: get-color(white1);
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+#left-nav-subtitle {
+  color: get-color(white);
+  align-self: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.btn-navigation {
+  color: get-color(green);
+  background-color: get-color(darkolive);
+  padding: 5px;
+  border: 2px;
+  border-radius: 8px;
+  margin: 10px 0px;
+}
+
+.btn-navigation:hover {
+  background-color: get-color(olive);
+  color: get-color(green);
+}
+
+.navbar-end {
+  justify-content: flex-end;
+}
+
+.footer {
+  border-top: 1px solid get-color(white2);
+  color: get-color(white1);
+
+  img {
+    width: 200px;
+  }
+}

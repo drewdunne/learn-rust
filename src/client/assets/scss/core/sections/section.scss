@@ -1,0 +1,54 @@
+.section {
+  display: flex;
+
+}
+
+.home {
+
+  .left-nav {
+    grid-row: 2 / 5;
+    grid-column: 0 / 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .skill-tree {
+    overflow-y: scroll;
+    background: get-color(darktealz);
+    grid-row: 2 / 6;
+    grid-column: 2 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .skill-node-container {
+    width: 20rem;
+  }
+
+  .skill-node {
+    color: get-color(green);
+    border: solid;
+    border-color: get-color(green);
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .skill-node:hover {
+    cursor: pointer;
+    color: get-color(green);
+    background-color: get-color(teal);
+  }
+
+  .active {
+    background-color: get-color(green);
+    color: get-color(darkteal);
+  }
+
+  .active:hover {
+    background-color: get-color(green);
+    color: get-color(darkteal);
+  }
+}
