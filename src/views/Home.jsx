@@ -23,10 +23,6 @@ const Home = () => {
     navigationOptions.push(Object.keys(options[i]));
   }
 
-  console.log(category);
-  console.log(navigationSelection);
-  console.log(level);
-  console.log(skillData);
   const currentTreeData = skillData[category][navigationSelection][level];
   const progressData = localStorage ? localStorage : {};
 
@@ -44,7 +40,7 @@ const Home = () => {
     <div className="home">
       <Navbar className='is-fixed-top top-nav'>
         <NavbarItem src={logo} 
-          alt="konstellation logo" 
+          alt="tldr-rust-logo" 
           className="logo" 
           text="TLDR Guide: Rust">
         </NavbarItem>
@@ -55,13 +51,13 @@ const Home = () => {
         </RadioButtonGroup>
         <NavbarMenu className={"navbar-end"}>
           <NavbarItem text="Source" 
-          href="https://github.com/oslabs-beta/Konstellation/">
+          href="https://github.com/drewdunne/learn-rust">
           </NavbarItem>
          {level}
         </NavbarMenu>
       </Navbar>
 
-      <Navbar>
+      <Navbar className="left-nav">
         <RadioButtonGroupVertical
           entries={navigationOptions.slice(0, -1)}
           titles={navigationOptions[navigationOptions.length-1]}

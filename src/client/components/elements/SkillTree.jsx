@@ -12,7 +12,7 @@ const SkillTree = ({data, progressData, category, difficulty, handleClickNode}) 
         nodes.push(<SkillNode key={id} text={data[i]} id={id} active={progressData[id]===true} updateTreeHandler={handleClickNode}/>);
         ids.push(id);
         if(i > 0) {
-            nodes.push(<Xarrow start={ids[i-1]} end={ids[i]} showHead={false} color={"white"} strokeWidth={2} key={id+"arrow"}/>)
+            nodes.push(<Xarrow start={ids[i-1]} end={ids[i]} showHead={false} color={"#7ea356"} strokeWidth={2} key={id+"arrow"}/>)
         }
     }
 
